@@ -9,8 +9,9 @@ jobs:
   build:
 
     runs-ons: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run a this scripttttttt!!!!!!!!!
+      - name: Run a this scripttttttt
         run: echo "@@@@@@@@@@@@@@ Hello, world!"
