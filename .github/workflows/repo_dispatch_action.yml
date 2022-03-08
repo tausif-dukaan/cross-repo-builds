@@ -1,0 +1,16 @@
+name: Test Repo Dispatch Action
+
+on:
+  repository_dispatch:
+    types: [cross_repo_dispatch_event]
+
+
+jobs:
+  build:
+
+    runs-ons: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run a this scripttttttt!!!!!!!!!
+        run: echo "@@@@@@@@@@@@@@ Hello, world!"
